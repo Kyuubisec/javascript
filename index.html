@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>   
+    <script src="javascript.js"></script>
+</head>
+<body>
+    <h1>javascript úkol</h1>
+    <div>
+        <label for="age">Zadejte svůj věk:</label>
+        <input type="number" id="age" name="age">
+        <button onclick="checkAge()">Zkontrolovat věk</button>
+        <p id="ageMessage"></p>
+    </div>
+
+    <div>
+        <h2>Výpočet součtu</h2>
+        <label for="number1">Číslo 1:</label>
+        <input type="text" id="number1" name="number1" required pattern="" />  
+        <label for="number2">Číslo 2:</label>
+        <input type="text" id="number2" name="number2" required pattern="" />
+        <button onclick="calculateSum()">Vypočítat součet</button>
+        <p id="sumResult"></p>
+    </div>
+
+    <div>
+        <h2>Posloupnost čísel</h2>
+        <button onclick="displayNumbers()">Zobrazit čísla od 1 do 10</button>
+        <p id="numberSequence"></p>
+    </div>
+    
+     <h6>zkoušeno v google chrome, u jiných prohlížeču nefunguje textové pole, nevím proč.</h6>
+</body>
+</html>
